@@ -1,0 +1,43 @@
+#l{
+    display: block;
+    text-align: center;
+    font-size: 5cm;
+    font-family: 'Courier New', Courier, monospace;
+}
+#btn{
+    text-align: center;
+    
+    background-image: url('anh.jpg'); /* Thay đổi đường dẫn đến hình ảnh của bạn */
+    background-size: cover; /* Đảm bảo hình ảnh sẽ che phủ toàn bộ background */
+    background-position: center; /* Căn giữa hình ảnh */
+    background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+    height: 100%; /* Đảm bảo container chiếm toàn bộ chiều cao của trang */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Màu chữ trắng để đối contrast với hình ảnh */
+}
+.b{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: aqua;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.b:hover{
+    background-color: rgb(6, 2, 29);
+}
+#bt2{
+    font-size: 1.5em;
+    border-radius: 5px;
+    background-color: bisque;
+    cursor: pointer;
+    transition: background-color rgb(26, 13, 99);
+}
+#lb3{
+    font-size: 1em;
+    color: red;
+}
